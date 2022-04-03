@@ -1,7 +1,11 @@
 const { parse } = require("pg-connection-string");
 
 module.exports = ({ env }) => {
-  const { host, port, database, user, password } = parse(env("DATABASE_URL"));
+  const { database } = parse(env("DATABASE_URL"));
+  const { host } = parse(env("PG_HOST"));
+  const { password } = parse(env("PG_Password"));
+  const { port } = parse(env("PG_PORT"));
+  const { user } = parse(env("PG_USERNAME"));
 
   return {
     defaultConnection: "default",
