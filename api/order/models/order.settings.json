@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "total": {
+      "type": "decimal"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "orders"
+    },
+    "isPaid": {
+      "type": "boolean",
+      "default": false
+    },
+    "cartItems": {
+      "type": "json",
+      "required": true
+    },
+    "shippingAddress": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
