@@ -2,7 +2,7 @@ repo_name: hicmtrex/jamstackshop-server
 report_id: 02112a0ab1e1901423326480356ce098
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T15:33:57+00:00'
+timestamp: '2024-01-05T08:17:14+00:00'
 requested_by: invalid-email-address
 provider: github
 branch: main
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hicmtrex/jamstackshop-server
   detection_source: Repo Metadata
 - name: SQLite
   description: A software library that implements a self-contained, serverless, zero-configuration,
@@ -27,6 +28,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/hicmtrex/jamstackshop-server/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-03 01:44:04.000000000 Z
@@ -39,6 +41,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/hicmtrex/jamstackshop-server/blob/main/.eslintrc
   detection_source: ".eslintrc"
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-03 01:44:04.000000000 Z
@@ -50,6 +53,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hicmtrex/jamstackshop-server
   detection_source: Repo Metadata
 - name: npm
   description: The package manager for JavaScript.
@@ -59,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hicmtrex/jamstackshop-server/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-03 01:44:04.000000000 Z
@@ -70,6 +75,7 @@ tools:
   category: Payments
   sub_category: Payment Services
   image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/hicmtrex/jamstackshop-server/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-03 01:44:04.000000000 Z
@@ -81,6 +87,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/hicmtrex/jamstackshop-server/blob/main/public/robots.txt
   detection_source: public/robots.txt
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-03 01:44:04.000000000 Z
@@ -92,6 +99,7 @@ tools:
   category: Support, Sales, and Marketing
   sub_category: Self-Hosted Blogging / CMS
   image_url: https://img.stackshare.io/service/9983/default_1a891f894a412457227c52eeef88470d883a6367.png
+  detection_source_url: https://github.com/hicmtrex/jamstackshop-server/blob/main/package.json
   detection_source: package.json
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-04-03 01:44:04.000000000 Z
